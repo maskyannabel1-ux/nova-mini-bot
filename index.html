@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOVA — Mini Bot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <header class="top-bar">
+            <div class="bot-info">
+                <div class="bot-avatar">N</div>
+
+                <div>
+                    <h1>NOVA</h1>
+                    <span id="status">● Online</span>
+                </div>
+            </div>
+
+            <button id="clearBtn" class="clear-btn">Clear</button>
+        </header>
+
+
+        <main id="chatBox" class="chat-box">
+
+            <div class="message bot-message">
+                <div class="avatar-small">N</div>
+
+                <div class="bubble">
+                    Hey. I'm NOVA. 👋<br><br>
+                    I'm a small browser-based bot. Try asking me
+                    <strong>hello</strong>, <strong>your name</strong>,
+                    <strong>time</strong>, or <strong>help</strong>.
+                </div>
+            </div>
+
+        </main>
+
+
+        <div id="typing" class="typing">
+            NOVA is typing<span>.</span><span>.</span><span>.</span>
+        </div>
+
+
+        <footer class="input-area">
+
+            <input
+                type="text"
+                id="messageInput"
+                placeholder="Message NOVA..."
+                autocomplete="off"
+            >
+
+            <button id="sendBtn" class="send-btn">
+                ➤
+            </button>
+
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+```
+  
